@@ -18,3 +18,4 @@ jobs:
         run: | 
           echo "Repository Name: ${{github.repository}}"
           echo "Repository Name: ${{github.owner}}"
+          echo "Generated Event: ${{event.name}}"
